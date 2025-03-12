@@ -1,8 +1,4 @@
-
-include: /views/*.view
-
-explore: order_items {
-  label: "Sales Data"
-  description: "This is the core sales data Explore, shared with all users"
+remote_dependency:  hub_company {
+  url:  "https://github.com/richk-at-looker/hub_company.git"
+  ref:  "main"
 }
-

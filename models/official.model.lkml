@@ -1,8 +1,6 @@
+# Include files we wish to use from the hub project (as defined in the manifest)
 
-include: /views/*.view
+include: "//hub_company/views/*.view"
+include: "//hub_company/views/*.explore"
 
-explore: order_items {
-  label: "Sales Data"
-  description: "This is the core sales data Explore, shared with all users"
-}
-
+# We would have include statements for files local to this repo, should we want to include any further - but we don't!
